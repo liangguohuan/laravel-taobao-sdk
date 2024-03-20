@@ -1,0 +1,22 @@
+{
+    "name": "liangguohuan/laravel-taobao-sdk",
+    "description": "taobao-sdk-PHP-auto_1598498084567-20230828",
+    "keywords": ["taobao", "api", "top", "sdk"],
+    "authors": [
+        {
+            "name": "lianguohuan",
+            "email": "liangguohuan@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liangguohuan\\TaoBaoSDK\\": "src/"
+        }
+    }
+}
